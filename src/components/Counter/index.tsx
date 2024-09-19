@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from "../Button";
-import 'Counter.css';
+import './Counter.css';
 
 function Counter() {
 
@@ -11,9 +11,9 @@ function Counter() {
 
     return (
         <div className="counter">
-            <Button onClick={increment}>- Decrement</Button>
+            <Button onClick={increment}>+ Increment</Button>
             <h2 className="counter-label">{counter}</h2>
-            <Button onClick={decrement}>+ Increment</Button>
+            <Button onClick={decrement}>- Decrement</Button>
         </div>
     )
 }
