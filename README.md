@@ -1,2 +1,2 @@
-# ReactJS
-Repositório para entrega de atividades em ReactJS
+# Counter
+#### Felipe Martins Frudeli
